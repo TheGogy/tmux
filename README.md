@@ -2,6 +2,7 @@
 
 This is my tmux config, made for studying.
 For best use, make sure to check out my other configurations for [foot](https://github.com/TheGogy/dotfiles/blob/main/foot/foot.ini) and [neovim](https://github.com/TheGogy/nvim/).
+
 # Installation
 
 ```bash
@@ -16,5 +17,17 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 tmux
 ```
-
 When tmux opens, press `ctrl-a` and `I` to install the required plugins.
+
+# Keymaps
+
+The prefix is `ctrl` + `a`.
+
+| Keymap        | Command                                    |
+| ------------- | ------------------------------------------ |
+| `alt` + `<n>`   | Switch to pane `n` (unless running nvim) |
+| `alt` + `h`   | Switch to previous pane.                   |
+| `alt` + `l`   | Switch to next pane.                       |
+| `ctrl` + `t`  | Create new pane.                           |
+| `ctrl` + `w`  | Delete current pane.                       |
+
