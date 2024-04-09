@@ -21,12 +21,14 @@ main() {
   layout=$(get_opt "@theme_layout" "${DEFAULT_LAYOUT}")
   colors=$(get_opt "@theme_colors" "${DEFAULT_COLORS}")
 
+  # Get colors
   # https://github.com/dylanaraps/pure-sh-bible#parsing-a-keyval-file
   while IFS='=' read -r key val; do
     [ "${key##\#*}" ] || continue
     eval "local $key"="$val"
   done <"${THEME_DIR}/colors/${colors}.theme"
 
+  # Load theme
   source "${THEME_DIR}/layouts/${layout}.tmux"
 }
 

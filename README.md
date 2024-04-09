@@ -23,11 +23,14 @@ When tmux opens, press `ctrl-a` and `I` to install the required plugins.
 
 The prefix is `ctrl` + `a`.
 
-| Keymap        | Command                                    |
-| ------------- | ------------------------------------------ |
-| `alt` + `<n>`   | Switch to pane `n` (unless running nvim) |
-| `alt` + `h`   | Switch to previous pane.                   |
-| `alt` + `l`   | Switch to next pane.                       |
-| `ctrl` + `t`  | Create new pane.                           |
-| `ctrl` + `w`  | Delete current pane.                       |
+| Keymap         | Command                                    |
+| -------------- | ------------------------------------------ |
+| `prefix` + `r` | Reload tmux configuration                  |
+| `alt` + `<n>`  | Switch to pane `n` (unless running nvim) |
+| `alt` + `h`    | Switch to previous pane.                   |
+| `alt` + `l`    | Switch to next pane.                       |
+| `ctrl` + `t`   | Create new pane.                           |
+| `ctrl` + `y`   | Create new pane in current directory.      |
+| `ctrl` + `w`   | Delete current pane.                       |
+| `ctrl` + `x`   | Toggle synchronize panes.                  |
 
