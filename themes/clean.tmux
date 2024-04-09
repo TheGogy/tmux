@@ -7,7 +7,7 @@ c3="#B877DB"
 c4="#F09383"
 c5="#EC6A88"
 
-git_branch="#(git -C #{pane_current_path} branch --show-current)"
+git_branch="#(git -C #{pane_current_path} branch --show-current || echo "--")"
 git_status="#[bg=${c2},fg=${c5}]  $git_branch #[bg=${base}]"
 
 set-option -g status-style "bg=${base}"
