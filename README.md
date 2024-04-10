@@ -3,6 +3,11 @@
 This is my tmux config, made for studying.
 For best use, make sure to check out my other configurations for [foot](https://github.com/TheGogy/dotfiles/blob/main/foot/foot.ini) and [neovim](https://github.com/TheGogy/nvim/).
 
+## Contents
+* [Installation](#installation)
+* [Keymaps](#Keymaps)
+* [Showcase](#Showcase)
+
 # Installation
 
 ```bash
@@ -16,6 +21,7 @@ git clone https://github.com/TheGogy/tmux ~/.config/tmux
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 # Remove unneccessary stuff
+rm -rf ~/.config/tmux/showcase
 rm -rf ~/.config/tmux/.git
 
 tmux
@@ -38,3 +44,6 @@ The prefix is `ctrl` + `a`.
 | `ctrl` + `x`         | Toggle synchronize panes.                  |
 | `ctrl` + `{h,j,k,l}` | Move between windows                       |
 
+# Showcase
+
+![showcase](./showcase/default.png)
