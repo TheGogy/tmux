@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 
 THEME_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
 DEFAULT_LAYOUT="clean"
-DEFAULT_COLORS="horizon"
+DEFAULT_COLORS="gruvbox"
 
 get_opt() {
   local option="$1"
