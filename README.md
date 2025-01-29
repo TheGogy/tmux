@@ -1,3 +1,4 @@
+
 # tmux
 
 This is my tmux config, made for studying.
@@ -46,4 +47,4 @@ The prefix is `ctrl` + `a`.
 
 # Showcase
 
-![showcase](./showcase/default.png)
+![showcase](https://github.com/user-attachments/assets/f8801836-0261-4b83-b83c-c5ffaaccf1fa)
